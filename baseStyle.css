@@ -1,0 +1,141 @@
+*, *::before, *::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: "Trebuchet MS", Ubuntu, "times new roman", times, serif;
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+}
+
+#logo img {
+	height: 50px;
+	width: auto;
+	float: left;
+	margin-left: 1%;
+}
+
+#mainNav {
+	font: normal 16px/20px "Varela Round", sans-serif;
+	background-color: #191919;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	height: 50px;
+
+	font: normal 18px/22px "Varela Round", sans-serif;
+	color: #fff;
+}
+
+#mainNav ul {
+	display: none;
+	width: 100%;
+}
+
+#mainNav ul li {
+	display: inline-block;
+	width: 100%;
+	float: left;
+	height: 50px;
+	background-color: #2C2C2C;
+	text-align: center;
+	line-height: 50px;
+}
+
+#mainNav li a {
+	display: inline-block;
+	width: 100%;
+}
+
+#mainNav a, #mainNav a:visited {
+  color: #999999;
+}
+
+#mainNav a:hover, #mainNav a:target {
+  color: #ffffff;
+}
+
+.but_menu {
+	float: right;
+	width: 40%;
+	text-align: center;
+	line-height: 50px;
+}
+
+#menu {
+	width: 100%;
+}
+
+#show {
+	display: inline-block;
+}
+
+#hider {
+	display: none;
+}
+
+#menu:target #show{
+	display: none;
+}
+
+#menu:target #hider, #menu:target ul{
+	display: inline-block;
+}
+
+@media only screen and (min-width: 800px) {
+	body {
+		margin: 0 auto;
+	}
+
+	#show, #hider {
+		display: none;
+	}
+
+	.but_menu {
+		display: none;
+	}
+
+	#logo {
+		width: 10%;
+	}
+	
+	#logo img {
+		margin: 0;
+	}
+
+	#menu {
+		max-width: 1000px;
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 10px;
+	}
+
+	#mainNav ul {
+		display: inline-block;
+		width: 90%;
+	}
+
+	#mainNav ul li{
+		width: 16%;
+		height: 50px;
+		line-height: 50px;
+		background-color: #191919;
+	}
+
+	#mainNav ul li a {
+		width: auto;
+	}
+
+	#menu:target #hider, #menu:target #show {
+		display: none;
+	}
+}

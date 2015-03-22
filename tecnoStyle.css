@@ -1,0 +1,80 @@
+body {
+	background-color: #FF5700;
+}
+
+#main-content {
+	margin-top: 50px;
+}
+
+ul {
+	list-style: none;
+}
+
+.section {
+	margin: 20px auto;
+	display: inline-block;
+	width: 100%;
+}
+
+.section h1 {
+	text-align: center;
+	color: #FFF;
+	font-weight: lighter;
+}
+
+.section ul li {
+	margin: 10px;
+	text-align: center;
+	color: #292929;
+}
+
+#tecnoLista li{
+	background-color: #e2e2e2;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: justify;
+}
+
+#tecnoLista li h3 {
+	text-align: center;
+}
+
+
+#tecnoLista li img {
+	width: 60px;
+	height: auto;
+	display: block;
+	float: left;
+	margin: 0 10px;
+}
+
+#tecnoLista li p {
+	padding: 10px;
+}
+
+@media only screen and (min-width: 650px) {
+	.section ul {
+		margin: 0 5%;
+	}
+	.section ul li {
+		width: 45%;
+		margin: 10px 2.5%;
+		float: left;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.section ul li {
+		width: 30%;
+		margin: 10px 1.6%;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.section ul li {
+		width: 21%;
+		margin: 10px 2%; 
+	}
+}

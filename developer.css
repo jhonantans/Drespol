@@ -1,0 +1,12 @@
+body {
+	background-color: #3BDA21;
+}
+
+#main-content {
+	margin-top: 50px;
+}
+
+#section1 {
+	margin-top: 10px;
+	display: inline-block;
+}

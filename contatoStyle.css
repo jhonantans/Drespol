@@ -1,0 +1,68 @@
+body {
+	background-color: #8710C2;
+}
+
+#main-content {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #FFF;
+	margin-top: 50px;
+	display: inline-block;
+	width: 100%;
+}
+
+.section {
+	padding: 20px;
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+#contatos p {
+	margin-top: 10px;
+	font-size: 16px;
+	text-align: justify;
+}
+
+.section a {
+	color: #fff;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+#contatos h1 {
+	text-align: center;
+	font-weight: lighter;
+}
+
+#fale-conosco h2{
+	text-align: center;
+	font-weight: lighter;
+}
+
+#fale-conosco label {
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 18px;
+	width: 100%;
+}
+
+#fale-conosco input, #fale-conosco textarea {
+	width: 100%;
+	display: block;
+	font-size: 16px;
+  font-weight: 200;
+  padding: 10px;
+
+	border-style: none;
+  border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 15px;
+}
+
+#fale-conosco textarea {
+	height: 80px;
+}
+
+#fale-conosco #but-enviar {
+	margin-top: 10px;
+	width: 100px;
+}
