@@ -6,10 +6,22 @@
 	margin: 0px;
 	padding: 0px;
 }
+html {
+	position: relative;
+	min-height: 100%;
+}
 
 body {
 	font-family: "Trebuchet MS", Ubuntu, "times new roman", times, serif;
 	font-size: 14px;
+ 	/*margin: 0 0 100px;*/
+ 	padding-bottom: 75px;
+	background-color: #1E90FF;
+}
+
+#mainContent {
+	height:auto !important;
+  min-height:100%;
 }
 
 a {
@@ -25,19 +37,18 @@ a {
 
 #mainNav {
 	font: normal 16px/20px "Varela Round", sans-serif;
-	background-color: #191919;
+	background-color: #292929;
 	position: fixed;
 	left: 0px;
 	top: 0px;
 	right: 0px;
 	height: 51px;
+	
+	font: bold 16px "Varela Round", sans-serif;
 
-	font: normal 18px/22px "Varela Round", sans-serif;
-	color: #fff;
-
-	-moz-box-shadow: 0px 2px 1px #444;
-	-webkit-box-shadow: 0px 2px 1px #444;
-	box-shadow: 0px 2px 1px #444;
+	-moz-box-shadow: 0px 2px 1px #ddd;
+	-webkit-box-shadow: 0px 2px 1px #ddd;
+	box-shadow: 0px 2px 1px #ddd;
 }
 
 #mainNav ul {
@@ -47,12 +58,13 @@ a {
 
 #mainNav ul li {
 	display: inline-block;
-	width: 100%;
+	width: 25%;
 	float: left;
 	height: 50px;
 	background-color: #2C2C2C;
 	text-align: center;
 	line-height: 50px;
+	padding: 0px 0px;
 }
 
 #mainNav li a {
@@ -61,11 +73,11 @@ a {
 }
 
 #mainNav a, #mainNav a:visited {
-  color: #999999;
+  color: #fff;
 }
 
 #mainNav a:hover, #mainNav a:target {
-  color: #ffffff;
+  color: #E30000;
 }
 
 .but_menu {
@@ -95,7 +107,34 @@ a {
 	display: inline-block;
 }
 
-@media only screen and (min-width: 800px) {
+#mainFooter {
+	font: normal 16px/20px "Varela Round", sans-serif;
+	background-color: #292929;
+	color: #fff;
+		
+	font: normal 12px "Varela Round", sans-serif;
+	text-align: center;
+
+	-moz-box-shadow: 0px -2px 1px #ddd;
+	-webkit-box-shadow: 0px -2px 1px #ddd;
+	box-shadow: 0px -2px 1px #ddd;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 75px;
+  width: 100%;
+  overflow:hidden;
+}
+
+#mainFooter a {
+	color: #fff;
+	font-style: italic;
+	font-weight: bold;
+}
+
+
+@media only screen and (min-width: 925px) {
 	body {
 		margin: 0 auto;
 	}
@@ -129,10 +168,10 @@ a {
 	}
 
 	#mainNav ul li{
-		width: 16%;
+		width: 100px;
 		height: 50px;
 		line-height: 50px;
-		background-color: #191919;
+		background-color: #292929;
 	}
 
 	#mainNav ul li a {

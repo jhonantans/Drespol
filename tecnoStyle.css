@@ -1,9 +1,6 @@
-body {
-	background-color: #FF5700;
-}
-
 #main-content {
 	margin-top: 50px;
+	display: inline-block;
 }
 
 ul {
@@ -23,22 +20,22 @@ ul {
 }
 
 .section ul li {
-	margin: 10px;
-	text-align: center;
 	color: #292929;
-}
-
-#tecnoLista li{
-	background-color: #e2e2e2;
+	display: inline-block;
+	background-color: #FFFAF0;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	padding: 10px;
 	text-align: justify;
+	margin: 10px 4%;
+	width: 40%;
+	min-height: 100px;
 }
 
-#tecnoLista li h3 {
+.section li h3 {
 	text-align: center;
+	float: left;
 }
 
 
@@ -52,12 +49,18 @@ ul {
 
 #tecnoLista li p {
 	padding: 10px;
+	display: none;
 }
 
 @media only screen and (min-width: 650px) {
 	.section ul {
 		margin: 0 5%;
 	}
+
+	.section li h3 {
+		float: none;
+	}
+
 	.section ul li {
 		width: 45%;
 		margin: 10px 2.5%;

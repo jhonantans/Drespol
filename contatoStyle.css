@@ -1,13 +1,6 @@
-body {
-	background-color: #8710C2;
-}
-
 #main-content {
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #FFF;
 	margin-top: 50px;
-	display: inline-block;
-	width: 100%;
 }
 
 .section {

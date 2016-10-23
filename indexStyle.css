@@ -3,7 +3,7 @@
 }
 
 .section {
-	min-height: 33.34%;
+	height: 33.34%;
 	width: 100%;
 	display: table;
 }
@@ -37,15 +37,15 @@
 }
 
 #section1 {
-	background-color: #FF5700;
+	background-color: #1E90FF;
 }
 
 #section2 {
-	background-color: #3D8CFF;
+	background-color: #3BDA21;
 }
 
 #section3 {
-	background-color: #3BDA21;
+	background-color: #FF5700;
 }
 
 @media only screen and (min-width: 800px) {
